@@ -8,5 +8,7 @@ class P09_MultiplicationFormula {
 
         // Output the formula and result
         // Write the program here
+        echo $numA . " x " . $numB . " = " . ($numA * $numB) . "\n"; 
+ 
     }
 }

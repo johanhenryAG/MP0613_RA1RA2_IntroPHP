@@ -13,6 +13,16 @@ class P44_Swap
         echo "\n";
 
         // Write your code here
-       
+        echo "\nGive two indices to swap: \n";
+        $index1 = (int) trim(fgets($GLOBALS['STDIN'] ?? STDIN));
+        $index2 = (int) trim(fgets($GLOBALS['STDIN'] ?? STDIN));
+
+        $helper = $array[$index1];
+        $array[$index1] = $array[$index2];
+        $array[$index2] = $helper;
+
+        foreach ($array as $value) {
+            echo $value . "\n";
+        }
     }
 }

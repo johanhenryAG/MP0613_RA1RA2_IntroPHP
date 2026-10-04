@@ -8,6 +8,6 @@ class P08_AdditionFormula {
 
         // Output the formula and result
         // Write the program here
-       
+       echo $numA . " + " . $numB . " = " . ($numA + $numB) . "\n"; 
     }
 }
